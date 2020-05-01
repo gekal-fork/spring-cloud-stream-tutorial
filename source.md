@@ -9,8 +9,8 @@
 
 以下のコマンドを実行すると、`hello-source`フォルダに雛形プロジェクトが生成されます
 
-```
-curl start.spring.io/starter.tgz \
+```bash
+curl https://start.spring.io/starter.tgz \
        -d artifactId=hello-source \
        -d baseDir=hello-source \
        -d packageName=com.example \

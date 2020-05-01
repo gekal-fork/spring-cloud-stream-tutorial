@@ -9,7 +9,7 @@
 以下のコマンドを実行すると、`hello-sink`フォルダに雛形プロジェクトが生成されます
 
 ```
-curl start.spring.io/starter.tgz \
+curl https://start.spring.io/starter.tgz \
        -d artifactId=hello-sink \
        -d baseDir=hello-sink \
        -d packageName=com.example \
